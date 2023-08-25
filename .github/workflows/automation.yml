@@ -21,4 +21,5 @@ jobs:
           password: ${{ secrets.PASS}}
           repository: tiagocerqueiro/teste1
           tags: latest, ${{ github.run_number}}
+          image: tiagocerqueiro/teste1
     
