@@ -10,7 +10,7 @@ jobs:
 
   build-container:
     name: Container de teste
-    runs-on: windows-latest
+    runs-on: latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
