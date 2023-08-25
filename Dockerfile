@@ -1,7 +1,6 @@
 FROM python:3.11.1
 
-RUN mkdir /teste-api
-WORKDIR /teste-api
+WORKDIR /teste
 
 COPY requirements.txt .
 COPY ./src ./src
