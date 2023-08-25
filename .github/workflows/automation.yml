@@ -18,6 +18,8 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: tiagocerqueiro/test1
+          tags: latest
+          registry: docker.io
           username: ${{ secrets.USER}}
           password: ${{ secrets.PASS}}
           repository: tiagocerqueiro/teste1
