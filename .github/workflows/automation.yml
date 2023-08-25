@@ -16,5 +16,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Publicar no Docker Hub
         uses: docker/build-push-action@v1
-        
+        with:
+          username: ${{ secrets.USER}}
+          password: ${{ secrets.PASS}}
+          repository: tiagocerqueiro/teste1
     
