@@ -19,7 +19,8 @@ jobs:
         with:
           username: ${{ secrets.USER}}
           password: ${{ secrets.PASS}}
-          repository: tiagocerqueiro/teste1
           tags: latest, ${{ github.run_number}}
           image: tiagocerqueiro/teste1
+          registry: docker.io
+          dockerfile: Dockerfile
     
