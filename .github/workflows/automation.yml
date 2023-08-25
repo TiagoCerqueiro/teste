@@ -17,6 +17,7 @@ jobs:
       - name: Publicar no Docker Hub
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
+          image: tiagocerqueiro/test1
           username: ${{ secrets.USER}}
           password: ${{ secrets.PASS}}
           repository: tiagocerqueiro/teste1
